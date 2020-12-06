@@ -1,0 +1,8 @@
+a) katalog "folder" oraz plik "Dockerfile" nalezy umiescic w katalogu home
+b) aby zbudowac obraz nalezy uzyc polecenia: 
+	"docker build -t test ."
+c) aby uruchomic kontener nalezy uzyc polecenia: 
+	"docker run --name test -d -p 8080:80 test"
+d) aby uruchomic aplikacje wpisz w wierszu polecen: 
+	"docker port test" lub "docker ps -a"
+   sprawdz odczytaj PORT na ktorym dziala kontener, a nastpnie wpisz adres do przegldarki
